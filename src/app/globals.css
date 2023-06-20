@@ -28,7 +28,7 @@
     @apply font-bold tracking-[-1.5px] text-skills;
   }
   .skillGrid {
-    @apply grid grid-cols-skills grid-rows-skills border-y  mx-4 my-20 py-10  text-center;
+    @apply grid grid-cols-skills grid-rows-skills gap-y-6 border-y  mx-4 my-20 py-10  text-center;
   }
 
   .skill > p {
