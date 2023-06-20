@@ -5,14 +5,14 @@ export default function Home() {
   return (
     <main className="relative max-w-screen overflow-x-hidden  overflow-y-hidden ">
       <Image
-        src="/pattern-rings.svg"
+        src="single-page-developer-portfolio/pattern-rings.svg"
         alt="Github Icon"
         width="530"
         height="129"
         className="absolute min-w-[530px] top-[124px] -left-[342px]"
       />
       <Image
-        src="/pattern-circle.svg"
+        src="single-page-developer-portfolio/pattern-circle.svg"
         alt="Github Icon"
         width="130"
         height="10"
@@ -22,28 +22,28 @@ export default function Home() {
         <h1 className="text-name font-bold">adamkeyes</h1>
         <section className="flex justify-between w-full">
           <Image
-            src="/icon-github.svg"
+            src="single-page-developer-portfolio/icon-github.svg"
             alt="Github Icon"
             width="24"
             height="24"
           />
           <Image
-            src="/icon-frontend-mentor.svg"
+            src="single-page-developer-portfolio/icon-frontend-mentor.svg"
             alt="Frontend Mentor"
             width="24"
             height="22"
           />
           <Image
-            src="/icon-linkedin.svg"
+            src="single-page-developer-portfolio/icon-linkedin.svg"
             alt="Linkedin"
             width="24"
             height="24"
           />
-          <Image src="/icon-twitter.svg" alt="Twitter" width="23" height="18" />
+          <Image src="single-page-developer-portfolio/icon-twitter.svg" alt="Twitter" width="23" height="18" />
         </section>
         <div className="w-[174px] h-[242px]">
           <Image
-            src="/image-profile-mobile.webp"
+            src="single-page-developer-portfolio/image-profile-mobile.webp"
             alt="Profile Picture"
             width="174"
             height="242"
@@ -99,7 +99,7 @@ export default function Home() {
           <article className="projectItem">
             <section className="projectImage">
               <Image
-                src="/thumbnail-project-1-large.webp"
+                src="single-page-developer-portfolio/thumbnail-project-1-large.webp"
                 alt="Twitter"
                 width="343"
                 height="253"
@@ -124,7 +124,7 @@ export default function Home() {
 
           <article className="projectItem">
             <Image
-              src="/thumbnail-project-2-large.webp"
+              src="single-page-developer-portfolio/thumbnail-project-2-large.webp"
               alt="Twitter"
               width="343"
               height="253"
@@ -149,7 +149,7 @@ export default function Home() {
           <article className="projectItem">
             <section className="projectImage">
               <Image
-                src="/thumbnail-project-3-large.webp"
+                src="single-page-developer-portfolio/thumbnail-project-3-large.webp"
                 alt="Twitter"
                 width="343"
                 height="253"
@@ -174,7 +174,7 @@ export default function Home() {
           <article className="projectItem">
             <section className="projectImage">
               <Image
-                src="/thumbnail-project-4-large.webp"
+                src="single-page-developer-portfolio/thumbnail-project-4-large.webp"
                 alt="Twitter"
                 width="343"
                 height="253"
@@ -199,7 +199,7 @@ export default function Home() {
           <article className="projectItem">
             <section className="projectImage">
               <Image
-                src="/thumbnail-project-5-large.webp"
+                src="single-page-developer-portfolio/thumbnail-project-5-large.webp"
                 alt="Twitter"
                 width="343"
                 height="253"
@@ -224,7 +224,7 @@ export default function Home() {
           <article className="projectItem">
             <section className="projectImage">
               <Image
-                src="/thumbnail-project-6-large.webp"
+                src="single-page-developer-portfolio/thumbnail-project-6-large.webp"
                 alt="Twitter"
                 width="343"
                 height="253"
