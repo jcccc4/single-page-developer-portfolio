@@ -35,7 +35,7 @@
     @apply text-paragraph;
   }
   .projectSection {
-    @apply w-auto ;
+    @apply w-auto mb-20;
   }
   .projectHeader {
     @apply flex justify-between mb-10 p-4;
@@ -55,4 +55,11 @@
   .projectLinks{
     @apply flex mt-5 gap-[30px];
   }
+  .footer{
+    @apply bg-[#242424] h-[834px] 
+  }
+  .contact{
+    @apply w-[343px] mx-auto pt-[60px] text-center
+  }
+  
 }
