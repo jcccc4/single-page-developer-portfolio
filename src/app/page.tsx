@@ -9,14 +9,14 @@ export default function Home() {
   return (
     <main className="relative max-w-screen overflow-x-hidden  overflow-y-hidden ">
       <Image
-        src={`${process.env.NODE_ENV === 'production' ? '/single-page-developer-portfolio/' : ''}/pattern-rings.svg`}
+        src={`${process.env.NODE_ENV === 'production' ? '/single-page-developer-portfolio' : ''}/pattern-rings.svg`}
         alt="Github Icon"
         width="530"
         height="129"
         className="absolute min-w-[530px] top-[124px] -left-[342px]"
       />
       <Image
-        src={`${process.env.NODE_ENV === 'production' ? '/single-page-developer-portfolio/' : ''}/pattern-circle.svg`}
+        src={`${process.env.NODE_ENV === 'production' ? '/single-page-developer-portfolio' : ''}/pattern-circle.svg`}
         alt="Github Icon"
         width="130"
         height="10"
