@@ -2,7 +2,7 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-    output: 'standalone',
+    output: 'export',
   
 
     // Optional: Add a trailing slash to all paths `/about` -> `/about/`
