@@ -2,8 +2,8 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-    output: 'export',
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/single-page-developer-portfolio/' : '',
+    output: 'standalone',
+  
 
     // Optional: Add a trailing slash to all paths `/about` -> `/about/`
     // trailingSlash: true,
