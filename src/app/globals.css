@@ -9,10 +9,10 @@
     @apply bg-[#151515] text-white font-space;
   }
   h2{
-    @apply text-nav font-bold
+    @apply text-nav font-bold md:text-nav-md md:tracking-[-2.05px]
   }
   p {
-    @apply text-[#D9D9D9] text-paragraph;
+    @apply text-[#D9D9D9] text-paragraph font-medium md:text-paragraph-md;
   }
   span,
   a {
@@ -25,41 +25,63 @@
 
 @layer components {
   .skill {
-    @apply font-bold tracking-[-1.5px] text-skills;
+    @apply font-bold tracking-[-1.5px] text-skills md:text-skills-md;
   }
   .skillGrid {
-    @apply grid grid-cols-skills grid-rows-skills gap-y-6 border-y  mx-4 my-20 py-10  text-center;
+    @apply grid grid-cols-skills grid-rows-skills gap-y-6 border-y  mx-4 my-20 py-10  text-center md:mt-[60px]  md:mb-[48px] md:mx-8 md:text-left md:gap-y-[52px] md:pt-[52px] md:border-b-0 lg:mt-[219px] lg:m-[0] lg:pb-0 lg:pt-[72px] lg:grid-cols-skills-lg lg:gap-x-[32.5px]  lg:mx-[165px];
   }
 
   .skill > p {
     @apply text-paragraph;
   }
   .projectSection {
-    @apply w-auto mb-20;
+    @apply w-auto mb-20 md:mb-[100px] lg:mt-[140px]  lg:mx-[165px];
   }
   .projectHeader {
-    @apply flex justify-between mb-10 p-4;
+    @apply flex justify-between mb-10 p-4 items-center md:px-8 md:mb-[60px] lg:p-0 lg:m-0;
   }
   .projectList{
-    @apply grid grid-cols-project grid-rows-project gap-y-[60px] m-auto
+    @apply grid grid-cols-project grid-rows-project lg:grid-cols-project-lg gap-y-[52px] m-auto md:mx-[28px] md:gap-y-[60px] lg:mt-20 lg:gap-x-[30px] lg:mx-0
   }
   .projectTitle{
     @apply text-projectTitle mt-4;
   }
   .projectItem{
-    @apply w-[343px] m-auto
+    @apply w-[343px] m-auto md:w-[346px] lg:w-[540px] relative
+  }
+  .projectImage{
+    @apply md:w-[346px] lg:w-[540px] lg:h-[full]  
   }
   .builtBy{
-    @apply flex flex-row text-builtBy mt-[7px];
+    @apply flex flex-row text-builtBy mt-[7px] gap-5 ; 
   }
   .projectLinks{
-    @apply flex mt-5 gap-[30px];
+    @apply flex  mt-5 gap-8 lg:opacity-0 lg:hover:opacity-80 lg:absolute lg:bg-[#000000] lg:m-0 lg:top-0 lg:flex-col lg:w-[540px] lg:h-[400px] lg:justify-center  lg:items-center;
   }
   .footer{
-    @apply bg-[#242424] h-[834px] 
+    @apply bg-[#242424] h-[834px]  md:h-[806px]   lg:px-[165px]  lg:h-[675px]  
   }
   .contact{
-    @apply w-[343px] mx-auto pt-[60px] text-center
+    @apply w-[343px] mx-auto pt-[60px] text-center md:w-[443px] lg:pt-[84px] lg:w-[445] lg:mx-0
   }
   
+}
+
+@layer utilities{
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    border: none;
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 0 transparent inset;
+    box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    color: white;
+}
 }

@@ -28,7 +28,7 @@ export default function RootLayout({
           sizes="32x32"
         />
       </head>
-      <body className={`${space_grotesk.variable}`}>{children}</body>
+      <body suppressHydrationWarning={true}  className={`${space_grotesk.variable}`}>{children}</body>
     </html>
   );
 }

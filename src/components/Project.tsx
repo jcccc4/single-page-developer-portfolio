@@ -15,11 +15,11 @@ export default function Project() {
             <Image
               src="/thumbnail-project-1-large.webp"
               alt="Twitter"
-              width="343"
-              height="253"
+              width="540"
+              height="487"
             />
           </section>
-          <section className="projectContent">
+          <section>
             <h3 className="projectTitle">DESIGN PORTFOLIO</h3>
             <section className="builtBy">
               <p>HTML</p>
@@ -36,17 +36,17 @@ export default function Project() {
           </section>
         </article>
 
-        <article className="projectItem">
+        <article className="projectItem relative">
           <Image
             src="/thumbnail-project-2-large.webp"
             alt="Twitter"
-            width="343"
-            height="253"
+            width="540"
+            height="487"
           />
 
-          <section className="projectContent">
+          <section>
             <h3 className="projectTitle">E-LEARNING LANDING PAGE</h3>
-            <section className="builtBy">
+            <section className="builtBy ">
               <p>HTML</p>
               <p>CSS</p>
             </section>
@@ -65,11 +65,11 @@ export default function Project() {
             <Image
               src="/thumbnail-project-3-large.webp"
               alt="Twitter"
-              width="343"
-              height="253"
+              width="540"
+              height="487"
             />
           </section>
-          <section className="projectContent">
+          <section>
             <h3 className="projectTitle">TODO WEB APP</h3>
             <section className="builtBy">
               <p>HTML</p>
@@ -90,11 +90,11 @@ export default function Project() {
             <Image
               src="/thumbnail-project-4-large.webp"
               alt="Twitter"
-              width="343"
-              height="253"
+              width="540"
+              height="487"
             />
           </section>
-          <section className="projectContent">
+          <section>
             <h3 className="projectTitle">ENTERTAINMENT WEB APP</h3>
             <section className="builtBy">
               <p>HTML</p>
@@ -115,11 +115,11 @@ export default function Project() {
             <Image
               src="/thumbnail-project-5-large.webp"
               alt="Twitter"
-              width="343"
-              height="253"
+              width="540"
+              height="487"
             />
           </section>
-          <section className="projectContent">
+          <section>
             <h3 className="projectTitle">MEMORY GAME</h3>
             <section className="builtBy">
               <p>HTML</p>
@@ -140,11 +140,11 @@ export default function Project() {
             <Image
               src="/thumbnail-project-6-large.webp"
               alt="Twitter"
-              width="343"
-              height="253"
+              width="540"
+              height="487"
             />
           </section>
-          <section className="projectContent">
+          <section>
             <h3 className="projectTitle">ART GALLERY SHOWCASE</h3>
             <section className="builtBy">
               <p>HTML</p>

@@ -18,7 +18,11 @@ module.exports = {
         skills: ["32px", "40px"],
         projectTitle: ["24px", "32px"],
         builtBy: ["18px", "28px"],
-      
+        'nav-md': ["72px", "72px"],
+        'paragraph-md': ["18px", "28px"],
+        'skills-md': ["48px", "56px"],
+        'nav-lg': ["88px", "88px"],   
+        wrongInput: ["12px", "18px"], 
       },
       gridTemplateRows: {
         skills: "repeat(2,1fr)",
@@ -26,7 +30,9 @@ module.exports = {
       },
       gridTemplateColumns: {
         skills: "repeat(auto-fit, minmax(300px, 1fr))",
-        project: "repeat(auto-fit, minmax(375px, 1fr))",
+        'skills-lg': "repeat(auto-fit, minmax(345px, 1fr))",
+        project: "repeat(auto-fit, minmax(355px, 1fr))",
+        'project-lg': "repeat(auto-fit, minmax(540px, 1fr))",
       },
       
     },
